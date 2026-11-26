@@ -1,0 +1,258 @@
+{
+ "id": "chen",
+ "name": "陈同学",
+ "summary": "25 岁，在上海读临床医学硕士",
+ "legend": {
+  "kind": "like 只是喜好 / skill 会的技能 / resource 手上的资源 / dislike 讨厌的 / constraint 限制条件 / background 背景（不计分）",
+  "say": "explicit 明说 / implicit 暗示",
+  "times": "在 50 段聊天里出现几次",
+  "status": "current 当前 / outdated 过时 / contradicted 前后矛盾",
+  "before/after": "过时或矛盾的信息：较早的聊天只透露 before，最后一次只透露 after；只出现 1 次的两句都透露"
+ },
+ "facts": [
+  {
+   "id": "B1",
+   "kind": "background",
+   "text": "25 岁，在上海读临床医学硕士，住学校宿舍",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "B2",
+   "kind": "background",
+   "text": "老家在湖南衡阳",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "B3",
+   "kind": "background",
+   "text": "弟弟在读高三",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "B4",
+   "kind": "background",
+   "text": "本科在长沙读的",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L1",
+   "kind": "like",
+   "text": "爱玩音游（节奏类手游）",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "L2",
+   "kind": "like",
+   "text": "喜欢看脱口秀",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "L3",
+   "kind": "like",
+   "text": "喜欢拼乐高",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L4",
+   "kind": "like",
+   "text": "爱吃螺蛳粉",
+   "say": "implicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L5",
+   "kind": "like",
+   "text": "去年养过热带鱼，后来鱼死了就不养了",
+   "say": "explicit",
+   "times": 2,
+   "status": "outdated",
+   "before": "最近开始养热带鱼",
+   "after": "热带鱼都死了，不养了"
+  },
+  {
+   "id": "S1",
+   "kind": "skill",
+   "text": "会用 R 做生存分析和统计",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "S2",
+   "kind": "skill",
+   "text": "会写一点 Python 爬虫",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "S3",
+   "kind": "skill",
+   "text": "本科辅修过心理学",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "S4",
+   "kind": "skill",
+   "text": "为了看动漫学日语，学完五十音就停了",
+   "say": "explicit",
+   "times": 1,
+   "status": "outdated",
+   "before": "在学日语",
+   "after": "日语学完五十音就停了"
+  },
+  {
+   "id": "R1",
+   "kind": "resource",
+   "text": "室友的哥哥在一家游戏公司做音游策划（陷阱：和“爱玩音游”挨得很近，但陈同学完全不懂游戏开发）",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "R2",
+   "kind": "resource",
+   "text": "导师课题组有一批脱敏的临床随访数据",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "R3",
+   "kind": "resource",
+   "text": "在科室轮转，认识很多医生和护士，常能请教问题",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "R4",
+   "kind": "resource",
+   "text": "学校有免费的高性能计算平台账号",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "R5",
+   "kind": "resource",
+   "text": "是一个三千人的医学生考试交流群的群主",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "D1",
+   "kind": "dislike",
+   "text": "不喜欢社交应酬和酒局",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "D2",
+   "kind": "dislike",
+   "text": "讨厌写文献综述",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "D3",
+   "kind": "dislike",
+   "text": "早先说讨厌做饭；后来说学会了几道菜，挺有成就感",
+   "say": "explicit",
+   "times": 2,
+   "status": "contradicted",
+   "before": "讨厌做饭",
+   "after": "最近学会了几道菜，挺有成就感（以前讨厌做饭）"
+  },
+  {
+   "id": "C1",
+   "kind": "constraint",
+   "text": "在准备明年的执业医师考试，时间很紧",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "C2",
+   "kind": "constraint",
+   "text": "每月补助只有两千出头",
+   "say": "implicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "C3",
+   "kind": "constraint",
+   "text": "有干眼症，看屏幕久了眼睛疼",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "C4",
+   "kind": "constraint",
+   "text": "年初打算毕业后读博，后来决定直接工作",
+   "say": "explicit",
+   "times": 2,
+   "status": "outdated",
+   "before": "打算毕业后继续读博",
+   "after": "决定不读博了，毕业直接工作"
+  }
+ ],
+ "noise_topics": [
+  "帮忙翻译一段英文摘要",
+  "泡面怎么煮更好吃",
+  "两款平板怎么选",
+  "上海地铁月票划算吗",
+  "感冒鼻塞怎么快速缓解",
+  "怎么给爸妈解释网络诈骗",
+  "租房合同违约金条款",
+  "Excel 怎么去重",
+  "解释一下新闻里的降准",
+  "洗衣机甩干声音大",
+  "怎么去除衣服上的血渍",
+  "高铁票改签规则",
+  "给同学写生日祝福",
+  "一部电影的结局怎么理解",
+  "朋友圈文案怎么写",
+  "快递丢件怎么赔",
+  "冬天宿舍太冷怎么办",
+  "怎么判断鸡蛋新鲜",
+  "手机电池掉电快",
+  "怎么礼貌地拒绝借钱",
+  "护照过期怎么续",
+  "一个英文单词的用法",
+  "牙龈出血是怎么回事",
+  "空调开多少度省电",
+  "Wi-Fi 信号差怎么办",
+  "怎么挑西瓜",
+  "电动牙刷值不值得买",
+  "番茄炒蛋怎么做",
+  "解释一下什么是基金定投",
+  "失眠了怎么办",
+  "怎么清洗保温杯的茶垢",
+  "一道高中数学题怎么做",
+  "雨天鞋子湿了怎么弄干",
+  "量子计算机到底快在哪"
+ ]
+}

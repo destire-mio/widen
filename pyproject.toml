@@ -1,0 +1,18 @@
+[project]
+name = "widen"
+version = "0.1.0"
+description = "A memory layer that widens an AI's suggestions instead of pulling them back to what it already remembers."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = ["openai>=1.0"]
+
+[project.scripts]
+widen = "widen.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

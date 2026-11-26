@@ -1,0 +1,258 @@
+{
+ "id": "ye",
+ "name": "阿叶",
+ "summary": "26 岁，住在成都的自由插画师",
+ "legend": {
+  "kind": "like 只是喜好 / skill 会的技能 / resource 手上的资源 / dislike 讨厌的 / constraint 限制条件 / background 背景（不计分）",
+  "say": "explicit 明说 / implicit 暗示",
+  "times": "在 50 段聊天里出现几次",
+  "status": "current 当前 / outdated 过时 / contradicted 前后矛盾",
+  "before/after": "过时或矛盾的信息：较早的聊天只透露 before，最后一次只透露 after；只出现 1 次的两句都透露"
+ },
+ "facts": [
+  {
+   "id": "B1",
+   "kind": "background",
+   "text": "26 岁，在成都玉林和朋友合租",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "B2",
+   "kind": "background",
+   "text": "老家在贵州",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "B3",
+   "kind": "background",
+   "text": "养了两只仓鼠",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "B4",
+   "kind": "background",
+   "text": "大学是学日语的",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L1",
+   "kind": "like",
+   "text": "爱玩桌游，每周和朋友开一次团",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "L2",
+   "kind": "like",
+   "text": "喜欢喝精酿啤酒",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "L3",
+   "kind": "like",
+   "text": "喜欢看 F1 比赛",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L4",
+   "kind": "like",
+   "text": "爱逛菜市场",
+   "say": "implicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L5",
+   "kind": "like",
+   "text": "去年学滑板，摔了几次就不玩了",
+   "say": "explicit",
+   "times": 2,
+   "status": "outdated",
+   "before": "最近在学滑板",
+   "after": "摔了几次，滑板已经不玩了"
+  },
+  {
+   "id": "S1",
+   "kind": "skill",
+   "text": "自由插画师，擅长水彩风格的儿童绘本插画",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "S2",
+   "kind": "skill",
+   "text": "会用剪映剪短视频",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "S3",
+   "kind": "skill",
+   "text": "日语能看懂原版漫画",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "S4",
+   "kind": "skill",
+   "text": "学过半年 Blender 3D 建模，后来放弃了",
+   "say": "explicit",
+   "times": 1,
+   "status": "outdated",
+   "before": "在学 Blender 3D 建模",
+   "after": "Blender 学了半年放弃了"
+  },
+  {
+   "id": "R1",
+   "kind": "resource",
+   "text": "常去的桌游店老板是好朋友，说可以在店里办活动（陷阱：和“爱玩桌游”挨得很近，但阿叶不懂游戏设计，也不会办活动）",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "R2",
+   "kind": "resource",
+   "text": "认识几个独立出版社的编辑",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "R3",
+   "kind": "resource",
+   "text": "有一个两万粉丝的插画账号",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "R4",
+   "kind": "resource",
+   "text": "家里有一台闲置的 A3 彩色打印机",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "R5",
+   "kind": "resource",
+   "text": "姐姐在幼儿园当园长",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "D1",
+   "kind": "dislike",
+   "text": "讨厌写代码，看到命令行就头疼",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "D2",
+   "kind": "dislike",
+   "text": "不喜欢打电话",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "D3",
+   "kind": "dislike",
+   "text": "早先说最讨厌早起；后来说开始早上六点起来画画，效率很高",
+   "say": "explicit",
+   "times": 2,
+   "status": "contradicted",
+   "before": "最讨厌早起",
+   "after": "最近开始早上六点起来画画，效率特别高（以前最讨厌早起）"
+  },
+  {
+   "id": "C1",
+   "kind": "constraint",
+   "text": "手腕有腱鞘炎，每天画画不能超过四小时",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "C2",
+   "kind": "constraint",
+   "text": "这几个月接单少，收入不稳定",
+   "say": "implicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "C3",
+   "kind": "constraint",
+   "text": "下半年要回贵州照顾生病的外婆一个月",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "C4",
+   "kind": "constraint",
+   "text": "年初说想报一个八千块的线下商业插画课，后来嫌贵没报",
+   "say": "explicit",
+   "times": 2,
+   "status": "outdated",
+   "before": "在考虑报一个八千块的线下商业插画课",
+   "after": "商业插画课最后没报，太贵了"
+  }
+ ],
+ "noise_topics": [
+  "一封日语邮件帮忙润色",
+  "麻婆豆腐怎么做",
+  "租房押金被扣了怎么办",
+  "两款蓝牙耳机怎么选",
+  "感冒喉咙痛吃什么",
+  "成都地铁换乘怎么走最快",
+  "个人社保怎么自己交",
+  "洗衣服掉色了怎么办",
+  "怎么去除衣服上的颜料渍",
+  "朋友圈文案怎么写有趣",
+  "护照怎么办理",
+  "空调遥控器失灵怎么办",
+  "解释一下新闻里的降息",
+  "怎么挑选牛油果",
+  "外卖吃坏肚子了怎么办",
+  "火锅底料怎么炒",
+  "一部电影的结局怎么理解",
+  "手机屏幕碎了换哪里便宜",
+  "怎么礼貌地催别人还钱",
+  "快递显示签收但没收到",
+  "冬天怎么防止嘴唇干裂",
+  "电费怎么突然变高了",
+  "一个英文短语的意思",
+  "绿植叶子发黄怎么办",
+  "高铁和飞机去重庆哪个划算",
+  "失眠了有什么办法",
+  "Wi-Fi 信号差怎么办",
+  "怎么清洗电饭锅内胆",
+  "给长辈买保健品要注意什么",
+  "医保卡怎么在异地用",
+  "番茄炒蛋怎么不出水",
+  "怎么判断西瓜熟没熟",
+  "解释一下什么是通货膨胀",
+  "雨天鞋子湿了怎么快速弄干"
+ ]
+}

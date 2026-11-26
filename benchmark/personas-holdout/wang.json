@@ -1,0 +1,258 @@
+{
+ "id": "wang",
+ "name": "王阿姨",
+ "summary": "63 岁，武汉退休的纺织厂会计",
+ "legend": {
+  "kind": "like 只是喜好 / skill 会的技能 / resource 手上的资源 / dislike 讨厌的 / constraint 限制条件 / background 背景（不计分）",
+  "say": "explicit 明说 / implicit 暗示",
+  "times": "在 50 段聊天里出现几次",
+  "status": "current 当前 / outdated 过时 / contradicted 前后矛盾",
+  "before/after": "过时或矛盾的信息：较早的聊天只透露 before，最后一次只透露 after；只出现 1 次的两句都透露"
+ },
+ "facts": [
+  {
+   "id": "B1",
+   "kind": "background",
+   "text": "63 岁，住在武汉老小区",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "B2",
+   "kind": "background",
+   "text": "老伴前年去世，自己一个人住",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "B3",
+   "kind": "background",
+   "text": "女儿在上海工作",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "B4",
+   "kind": "background",
+   "text": "养了两缸金鱼",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L1",
+   "kind": "like",
+   "text": "爱看越剧，尤其是《红楼梦》选段",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "L2",
+   "kind": "like",
+   "text": "喜欢做腌菜、腊鱼",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "L3",
+   "kind": "like",
+   "text": "爱看国际新闻",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L4",
+   "kind": "like",
+   "text": "喜欢逛花鸟市场",
+   "say": "implicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L5",
+   "kind": "like",
+   "text": "前几年迷上广场舞，后来膝盖不好就不跳了",
+   "say": "explicit",
+   "times": 2,
+   "status": "outdated",
+   "before": "最近每天晚上去跳广场舞",
+   "after": "膝盖不行，广场舞已经不跳了"
+  },
+  {
+   "id": "S1",
+   "kind": "skill",
+   "text": "做了三十年会计，打算盘、算账又快又准",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "S2",
+   "kind": "skill",
+   "text": "会用钩针织毛衣、帽子",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "S3",
+   "kind": "skill",
+   "text": "年轻时在厂里文艺队唱过歌",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "S4",
+   "kind": "skill",
+   "text": "去年在老年大学学过一学期书法，后来没去了",
+   "say": "explicit",
+   "times": 1,
+   "status": "outdated",
+   "before": "在老年大学报了书法班",
+   "after": "书法班后来没再去上"
+  },
+  {
+   "id": "R1",
+   "kind": "resource",
+   "text": "楼下邻居是退休的越剧团琴师（陷阱：和“爱看越剧”挨得很近，但她不会唱也不会组织演出）",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "R2",
+   "kind": "resource",
+   "text": "社区老年大学就在小区门口，课很便宜",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "R3",
+   "kind": "resource",
+   "text": "有一套老房子空着一间房",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "R4",
+   "kind": "resource",
+   "text": "以前厂里的老姐妹有一个三十多人的微信群",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "R5",
+   "kind": "resource",
+   "text": "女儿每年给她一笔零花钱",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "D1",
+   "kind": "dislike",
+   "text": "讨厌用手机扫码付钱，总怕被骗",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "D2",
+   "kind": "dislike",
+   "text": "不喜欢吵闹的饭局",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "D3",
+   "kind": "dislike",
+   "text": "早先说坐不住、不爱看书；后来说开始听有声书，觉得挺好",
+   "say": "explicit",
+   "times": 2,
+   "status": "contradicted",
+   "before": "坐不住，不爱看书",
+   "after": "最近开始听有声书，觉得挺好（以前不爱看书）"
+  },
+  {
+   "id": "C1",
+   "kind": "constraint",
+   "text": "膝盖有骨质增生，走路、上下楼都吃力",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "C2",
+   "kind": "constraint",
+   "text": "眼睛老花，看手机小字很费劲",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "C3",
+   "kind": "constraint",
+   "text": "每月退休金三千出头，要省着花",
+   "say": "implicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "C4",
+   "kind": "constraint",
+   "text": "年初说要搬去上海跟女儿住，后来决定还是留在武汉",
+   "say": "explicit",
+   "times": 2,
+   "status": "outdated",
+   "before": "在考虑搬去上海跟女儿住",
+   "after": "决定不去上海了，留在武汉"
+  }
+ ],
+ "noise_topics": [
+  "量子计算机到底快在哪",
+  "解释一下什么是通货膨胀",
+  "一个英文单词 serendipity 的用法",
+  "怎么挑西瓜",
+  "怎么去除衣服上的油渍",
+  "家里 Wi-Fi 信号差怎么办",
+  "空调开多少度最省电",
+  "黑洞是怎么形成的",
+  "为什么天空是蓝色的",
+  "地球上最深的海沟在哪",
+  "怎么判断鸡蛋新不新鲜",
+  "为什么飞机能飞起来",
+  "恐龙是怎么灭绝的",
+  "解释一下什么是区块链",
+  "冬天为什么容易静电",
+  "怎么记住一串长数字",
+  "猫为什么喜欢纸箱",
+  "金字塔是怎么建起来的",
+  "番茄炒蛋怎么不出水",
+  "感冒了喝什么好",
+  "高铁票怎么改签",
+  "怎么防止电话诈骗",
+  "雨天鞋子湿了怎么快速弄干",
+  "电饭锅内胆怎么清洗",
+  "一部老电影的结局怎么理解",
+  "解释一下新闻里说的降准",
+  "怎么给长辈写一段祝寿的话",
+  "牙龈出血是怎么回事",
+  "手机电池掉电快怎么办",
+  "怎么礼貌地拒绝别人借钱",
+  "夏天怎么防蚊",
+  "解释一下什么是基金定投",
+  "怎么泡一壶好茶",
+  "冰箱有异味怎么办"
+ ]
+}

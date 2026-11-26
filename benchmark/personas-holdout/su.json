@@ -1,0 +1,258 @@
+{
+ "id": "su",
+ "name": "小苏",
+ "summary": "22 岁，昆明的护理系实习生",
+ "legend": {
+  "kind": "like 只是喜好 / skill 会的技能 / resource 手上的资源 / dislike 讨厌的 / constraint 限制条件 / background 背景（不计分）",
+  "say": "explicit 明说 / implicit 暗示",
+  "times": "在 50 段聊天里出现几次",
+  "status": "current 当前 / outdated 过时 / contradicted 前后矛盾",
+  "before/after": "过时或矛盾的信息：较早的聊天只透露 before，最后一次只透露 after；只出现 1 次的两句都透露"
+ },
+ "facts": [
+  {
+   "id": "B1",
+   "kind": "background",
+   "text": "22 岁，护理系大四，在昆明一家医院实习",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "B2",
+   "kind": "background",
+   "text": "老家在大理",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "B3",
+   "kind": "background",
+   "text": "住在医院的实习生宿舍，四人间",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "B4",
+   "kind": "background",
+   "text": "有个读初中的妹妹",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L1",
+   "kind": "like",
+   "text": "爱做手账，攒了一抽屉贴纸胶带",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "L2",
+   "kind": "like",
+   "text": "喜欢追悬疑剧",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "L3",
+   "kind": "like",
+   "text": "喜欢吃米线",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L4",
+   "kind": "like",
+   "text": "爱听播客",
+   "say": "implicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L5",
+   "kind": "like",
+   "text": "大二时学过尤克里里，后来琴摔坏了就没弹了",
+   "say": "explicit",
+   "times": 2,
+   "status": "outdated",
+   "before": "最近在学尤克里里",
+   "after": "琴摔坏了，尤克里里没再弹"
+  },
+  {
+   "id": "S1",
+   "kind": "skill",
+   "text": "会打针、换药、量血压，急救证也考了",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "S2",
+   "kind": "skill",
+   "text": "会用剪映剪 vlog",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "S3",
+   "kind": "skill",
+   "text": "高中学过一点素描",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "S4",
+   "kind": "skill",
+   "text": "去年想考雅思，背了一个月单词就放弃了",
+   "say": "explicit",
+   "times": 1,
+   "status": "outdated",
+   "before": "在准备雅思",
+   "after": "雅思背了一个月单词就放弃了"
+  },
+  {
+   "id": "R1",
+   "kind": "resource",
+   "text": "表姐在大理开文具店，说可以帮她卖东西（陷阱：和“爱做手账”挨得很近，但她不懂进货和开店）",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "R2",
+   "kind": "resource",
+   "text": "医院护理部有很多带教老师，可以请教",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "R3",
+   "kind": "resource",
+   "text": "有一个一千多人的护理考研群",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "R4",
+   "kind": "resource",
+   "text": "宿舍楼下有个没人用的小活动室",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "R5",
+   "kind": "resource",
+   "text": "在小红书有个八百粉丝的手账号",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "D1",
+   "kind": "dislike",
+   "text": "讨厌在镜头前说话",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "D2",
+   "kind": "dislike",
+   "text": "不喜欢运动出汗",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "D3",
+   "kind": "dislike",
+   "text": "早先说讨厌做饭；后来说用宿舍小电锅学会了煮米线，挺开心",
+   "say": "explicit",
+   "times": 2,
+   "status": "contradicted",
+   "before": "讨厌做饭",
+   "after": "最近用小电锅学会了煮米线，挺开心（以前讨厌做饭）"
+  },
+  {
+   "id": "C1",
+   "kind": "constraint",
+   "text": "实习三班倒，作息不固定，经常上夜班",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "C2",
+   "kind": "constraint",
+   "text": "每月实习补贴只有一千五",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "C3",
+   "kind": "constraint",
+   "text": "宿舍不能用大功率电器",
+   "say": "implicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "C4",
+   "kind": "constraint",
+   "text": "年初说毕业想回大理，后来说要留在昆明考编",
+   "say": "explicit",
+   "times": 2,
+   "status": "outdated",
+   "before": "打算毕业回大理",
+   "after": "决定留在昆明考编"
+  }
+ ],
+ "noise_topics": [
+  "量子计算机到底快在哪",
+  "解释一下什么是通货膨胀",
+  "一个英文单词 serendipity 的用法",
+  "怎么挑西瓜",
+  "怎么去除衣服上的油渍",
+  "家里 Wi-Fi 信号差怎么办",
+  "空调开多少度最省电",
+  "黑洞是怎么形成的",
+  "为什么天空是蓝色的",
+  "地球上最深的海沟在哪",
+  "怎么判断鸡蛋新不新鲜",
+  "为什么飞机能飞起来",
+  "恐龙是怎么灭绝的",
+  "解释一下什么是区块链",
+  "冬天为什么容易静电",
+  "怎么记住一串长数字",
+  "猫为什么喜欢纸箱",
+  "金字塔是怎么建起来的",
+  "番茄炒蛋怎么不出水",
+  "感冒了喝什么好",
+  "高铁票怎么改签",
+  "怎么防止电话诈骗",
+  "雨天鞋子湿了怎么快速弄干",
+  "电饭锅内胆怎么清洗",
+  "一部老电影的结局怎么理解",
+  "解释一下新闻里说的降准",
+  "怎么给长辈写一段祝寿的话",
+  "牙龈出血是怎么回事",
+  "手机电池掉电快怎么办",
+  "怎么礼貌地拒绝别人借钱",
+  "夏天怎么防蚊",
+  "解释一下什么是基金定投",
+  "怎么泡一壶好茶",
+  "冰箱有异味怎么办"
+ ]
+}

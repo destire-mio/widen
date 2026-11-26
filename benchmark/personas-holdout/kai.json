@@ -1,0 +1,258 @@
+{
+ "id": "kai",
+ "name": "阿凯",
+ "summary": "30 岁，深圳的跨境电商运营",
+ "legend": {
+  "kind": "like 只是喜好 / skill 会的技能 / resource 手上的资源 / dislike 讨厌的 / constraint 限制条件 / background 背景（不计分）",
+  "say": "explicit 明说 / implicit 暗示",
+  "times": "在 50 段聊天里出现几次",
+  "status": "current 当前 / outdated 过时 / contradicted 前后矛盾",
+  "before/after": "过时或矛盾的信息：较早的聊天只透露 before，最后一次只透露 after；只出现 1 次的两句都透露"
+ },
+ "facts": [
+  {
+   "id": "B1",
+   "kind": "background",
+   "text": "30 岁，在深圳宝安和人合租",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "B2",
+   "kind": "background",
+   "text": "老家在潮汕",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "B3",
+   "kind": "background",
+   "text": "女朋友在广州读博",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "B4",
+   "kind": "background",
+   "text": "养了一只柯基",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L1",
+   "kind": "like",
+   "text": "爱攀岩，每周去一次岩馆",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "L2",
+   "kind": "like",
+   "text": "喜欢喝功夫茶",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "L3",
+   "kind": "like",
+   "text": "喜欢看 F1",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L4",
+   "kind": "like",
+   "text": "爱拍城市夜景",
+   "say": "implicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L5",
+   "kind": "like",
+   "text": "去年迷上打羽毛球，后来工作忙就不打了",
+   "say": "explicit",
+   "times": 2,
+   "status": "outdated",
+   "before": "最近迷上打羽毛球",
+   "after": "太忙了，羽毛球已经不打了"
+  },
+  {
+   "id": "S1",
+   "kind": "skill",
+   "text": "做了五年亚马逊店铺运营，会看广告数据、写英文商品页",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "S2",
+   "kind": "skill",
+   "text": "英语口语不错，常跟海外客户开会",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "S3",
+   "kind": "skill",
+   "text": "大学学过一点 Photoshop",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "S4",
+   "kind": "skill",
+   "text": "前年报了 Python 网课，学到一半放弃了",
+   "say": "explicit",
+   "times": 1,
+   "status": "outdated",
+   "before": "在上 Python 网课",
+   "after": "Python 网课学到一半放弃了"
+  },
+  {
+   "id": "R1",
+   "kind": "resource",
+   "text": "岩馆老板是好朋友，说可以在馆里办活动（陷阱：和“爱攀岩”挨得很近，但他不会教攀岩，也没办过活动）",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "R2",
+   "kind": "resource",
+   "text": "公司有闲置的一台无人机",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "R3",
+   "kind": "resource",
+   "text": "认识一批做外贸的工厂老板",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "R4",
+   "kind": "resource",
+   "text": "有一个两千人的跨境卖家交流群",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "R5",
+   "kind": "resource",
+   "text": "老家亲戚在做潮汕牛肉丸生意",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "D1",
+   "kind": "dislike",
+   "text": "讨厌写长文章",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "D2",
+   "kind": "dislike",
+   "text": "不喜欢喝酒应酬",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "D3",
+   "kind": "dislike",
+   "text": "早先说讨厌早起；后来说为了避开晚高峰改成早上去岩馆，反而喜欢上了",
+   "say": "explicit",
+   "times": 2,
+   "status": "contradicted",
+   "before": "讨厌早起",
+   "after": "最近改成早上去岩馆，反而喜欢早起了（以前讨厌早起）"
+  },
+  {
+   "id": "C1",
+   "kind": "constraint",
+   "text": "要配合美国时间，经常半夜开会，白天精力差",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "C2",
+   "kind": "constraint",
+   "text": "手腕攀岩受过伤，不能太用力",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "C3",
+   "kind": "constraint",
+   "text": "在还车贷，这两年想多存钱",
+   "say": "implicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "C4",
+   "kind": "constraint",
+   "text": "年初说要跳槽去杭州，后来说留在深圳",
+   "say": "explicit",
+   "times": 2,
+   "status": "outdated",
+   "before": "在考虑跳槽去杭州",
+   "after": "决定不去杭州了，留在深圳"
+  }
+ ],
+ "noise_topics": [
+  "量子计算机到底快在哪",
+  "解释一下什么是通货膨胀",
+  "一个英文单词 serendipity 的用法",
+  "怎么挑西瓜",
+  "怎么去除衣服上的油渍",
+  "家里 Wi-Fi 信号差怎么办",
+  "空调开多少度最省电",
+  "黑洞是怎么形成的",
+  "为什么天空是蓝色的",
+  "地球上最深的海沟在哪",
+  "怎么判断鸡蛋新不新鲜",
+  "为什么飞机能飞起来",
+  "恐龙是怎么灭绝的",
+  "解释一下什么是区块链",
+  "冬天为什么容易静电",
+  "怎么记住一串长数字",
+  "猫为什么喜欢纸箱",
+  "金字塔是怎么建起来的",
+  "番茄炒蛋怎么不出水",
+  "感冒了喝什么好",
+  "高铁票怎么改签",
+  "怎么防止电话诈骗",
+  "雨天鞋子湿了怎么快速弄干",
+  "电饭锅内胆怎么清洗",
+  "一部老电影的结局怎么理解",
+  "解释一下新闻里说的降准",
+  "怎么给长辈写一段祝寿的话",
+  "牙龈出血是怎么回事",
+  "手机电池掉电快怎么办",
+  "怎么礼貌地拒绝别人借钱",
+  "夏天怎么防蚊",
+  "解释一下什么是基金定投",
+  "怎么泡一壶好茶",
+  "冰箱有异味怎么办"
+ ]
+}

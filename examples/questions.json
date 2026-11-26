@@ -1,0 +1,6 @@
+[
+ {"scenario": "头脑风暴", "question": "我想做一个周末两天能做完的开源小项目，有什么方向？"},
+ {"scenario": "学习", "question": "我接下来半年该学点什么？"},
+ {"scenario": "技术方案", "question": "我的笔记想加全文搜索，除了 Elasticsearch 还有什么做法？"},
+ {"scenario": "反例：明确任务", "question": "把 order.go 里 CreateOrder 函数的 panic 改成返回 error。"}
+]

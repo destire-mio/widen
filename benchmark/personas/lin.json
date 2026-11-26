@@ -1,0 +1,258 @@
+{
+ "id": "lin",
+ "name": "小林",
+ "summary": "28 岁，杭州电商公司的 Go 后端工程师，老家山东烟台",
+ "legend": {
+  "kind": "like 只是喜好 / skill 会的技能 / resource 手上的资源 / dislike 讨厌的 / constraint 限制条件 / background 背景（不计分）",
+  "say": "explicit 明说 / implicit 暗示",
+  "times": "在 50 段聊天里出现几次",
+  "status": "current 当前 / outdated 过时 / contradicted 前后矛盾",
+  "before/after": "过时或矛盾的信息：较早的聊天只透露 before，最后一次只透露 after；只出现 1 次的两句都透露"
+ },
+ "facts": [
+  {
+   "id": "B1",
+   "kind": "background",
+   "text": "28 岁，在杭州滨江和人合租",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "B2",
+   "kind": "background",
+   "text": "老家在山东烟台",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "B3",
+   "kind": "background",
+   "text": "养了一只叫馒头的橘猫",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "B4",
+   "kind": "background",
+   "text": "女朋友是小学语文老师",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L1",
+   "kind": "like",
+   "text": "爱吃苹果，每天一个，尤其喜欢阿克苏冰糖心",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "L2",
+   "kind": "like",
+   "text": "喜欢看东野圭吾这类日本推理小说",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "L3",
+   "kind": "like",
+   "text": "周末偶尔骑公路车去西湖边",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L4",
+   "kind": "like",
+   "text": "爱看火箭发射直播",
+   "say": "implicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L5",
+   "kind": "like",
+   "text": "去年迷上手冲咖啡，买了一套器具，后来嫌麻烦不玩了",
+   "say": "explicit",
+   "times": 2,
+   "status": "outdated",
+   "before": "最近迷上了手冲咖啡，刚买了一套器具",
+   "after": "之前买的手冲咖啡器具放着吃灰，嫌麻烦不玩了"
+  },
+  {
+   "id": "S1",
+   "kind": "skill",
+   "text": "做了三年 Go 后端，负责电商订单和支付",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "S2",
+   "kind": "skill",
+   "text": "会做 MySQL 慢查询调优",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "S3",
+   "kind": "skill",
+   "text": "大学学过一点 Python 数据分析，很久没用了",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "S4",
+   "kind": "skill",
+   "text": "前年想学 Rust，看了半本书就放弃了",
+   "say": "explicit",
+   "times": 1,
+   "status": "outdated",
+   "before": "前年想学 Rust，看了半本书",
+   "after": "Rust 后来放弃了，没坚持下去"
+  },
+  {
+   "id": "R1",
+   "kind": "resource",
+   "text": "表哥在烟台老家开苹果园（陷阱：和“爱吃苹果”挨得很近，但小林完全不懂种植和销售）",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "R2",
+   "kind": "resource",
+   "text": "室友做物流数据分析，手上有路径规划的数据",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "R3",
+   "kind": "resource",
+   "text": "Obsidian 里攒了两千多条技术笔记",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "R4",
+   "kind": "resource",
+   "text": "公司有闲置的测试服务器，组长说可以随便用",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "R5",
+   "kind": "resource",
+   "text": "在 GitHub 上有一个三百多 star 的 Go 小工具库",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "D1",
+   "kind": "dislike",
+   "text": "讨厌写前端，特别是调 CSS",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "D2",
+   "kind": "dislike",
+   "text": "不喜欢开会和人多的社交场合",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "D3",
+   "kind": "dislike",
+   "text": "早先说过讨厌跑步；后来又说最近开始夜跑，感觉还不错",
+   "say": "explicit",
+   "times": 2,
+   "status": "contradicted",
+   "before": "很讨厌跑步",
+   "after": "最近开始夜跑了，感觉还不错（以前讨厌跑步）"
+  },
+  {
+   "id": "C1",
+   "kind": "constraint",
+   "text": "工作日加班多，每周只有周六下午有空",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "C2",
+   "kind": "constraint",
+   "text": "刚买了房在还贷，手头比较紧",
+   "say": "implicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "C3",
+   "kind": "constraint",
+   "text": "颈椎不好，医生让他别久坐",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "C4",
+   "kind": "constraint",
+   "text": "年初说可能跳槽去上海，后来说决定不跳了",
+   "say": "explicit",
+   "times": 2,
+   "status": "outdated",
+   "before": "在考虑跳槽去上海",
+   "after": "决定不跳槽了，留在杭州"
+  }
+ ],
+ "noise_topics": [
+  "把一封英文邮件翻译成中文",
+  "帮忙写周报的开头",
+  "番茄炒蛋怎么做才不出水",
+  "两款安卓手机怎么选",
+  "租房合同里的违约金条款是什么意思",
+  "感冒了喉咙痛吃什么",
+  "Excel 里怎么按条件求和",
+  "基金定投是什么意思",
+  "洗衣机甩干时响声很大怎么办",
+  "给同事写一段生日祝福",
+  "量子计算机到底快在哪",
+  "推荐几部最近的电影",
+  "朋友圈文案怎么写得有趣一点",
+  "高铁票改签规则",
+  "怎么去除衣服上的油渍",
+  "解释一下最近新闻里说的降准",
+  "护照快过期了怎么续",
+  "空调开多少度最省电",
+  "怎么给长辈解释什么是电信诈骗",
+  "一个英文单词的用法",
+  "家里 Wi-Fi 信号差怎么办",
+  "写一封请假邮件",
+  "牙龈出血是怎么回事",
+  "怎么判断西瓜熟没熟",
+  "一道小学数学题怎么讲",
+  "电动牙刷值不值得买",
+  "火锅底料怎么炒",
+  "怎么礼貌地拒绝借钱",
+  "一部历史剧里的历史是真的吗",
+  "快递显示签收但没收到怎么办",
+  "怎么煮出不糊的白粥",
+  "公司年会节目出什么点子",
+  "打印机连不上电脑",
+  "解释一下什么是通货膨胀"
+ ]
+}

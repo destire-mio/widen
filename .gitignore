@@ -1,0 +1,19 @@
+.env
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+*.bak
+*.log
+
+# benchmark working folders (Mem0 stores, caches, raw rows); the reports are committed separately
+benchmark/results*/
+
+# large or third-party data: rebuild or download (see README)
+data/clickstream/
+data/locomo/
+data/clicks-*.npz
+data/vital-l3.*
+
+# personal working notes
+docs/downloads-todo.md

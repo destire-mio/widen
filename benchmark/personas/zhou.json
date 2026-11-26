@@ -1,0 +1,258 @@
+{
+ "id": "zhou",
+ "name": "周老师",
+ "summary": "41 岁，河南一个县城的初中物理老师",
+ "legend": {
+  "kind": "like 只是喜好 / skill 会的技能 / resource 手上的资源 / dislike 讨厌的 / constraint 限制条件 / background 背景（不计分）",
+  "say": "explicit 明说 / implicit 暗示",
+  "times": "在 50 段聊天里出现几次",
+  "status": "current 当前 / outdated 过时 / contradicted 前后矛盾",
+  "before/after": "过时或矛盾的信息：较早的聊天只透露 before，最后一次只透露 after；只出现 1 次的两句都透露"
+ },
+ "facts": [
+  {
+   "id": "B1",
+   "kind": "background",
+   "text": "41 岁，住在河南一个县城",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "B2",
+   "kind": "background",
+   "text": "儿子在读初二",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "B3",
+   "kind": "background",
+   "text": "家里养了一条土狗叫大黄",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "B4",
+   "kind": "background",
+   "text": "爱人在县医院当护士",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L1",
+   "kind": "like",
+   "text": "爱听单田芳的评书和老相声",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "L2",
+   "kind": "like",
+   "text": "喜欢做些木工小玩意",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "L3",
+   "kind": "like",
+   "text": "爱看英超足球",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L4",
+   "kind": "like",
+   "text": "喜欢收集老邮票",
+   "say": "implicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L5",
+   "kind": "like",
+   "text": "去年迷上打羽毛球，后来膝盖伤了就不打了",
+   "say": "explicit",
+   "times": 2,
+   "status": "outdated",
+   "before": "最近迷上了打羽毛球，每周打两次",
+   "after": "膝盖伤了，羽毛球已经不打了"
+  },
+  {
+   "id": "S1",
+   "kind": "skill",
+   "text": "教了十五年初中物理，擅长做演示实验",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "S2",
+   "kind": "skill",
+   "text": "会用 Excel 做成绩统计分析",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "S3",
+   "kind": "skill",
+   "text": "大学时学过一点单片机",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "S4",
+   "kind": "skill",
+   "text": "前年报了教育学在职研究生，最后没去考",
+   "say": "explicit",
+   "times": 1,
+   "status": "outdated",
+   "before": "报名了教育学在职研究生",
+   "after": "在职研究生最后没去考"
+  },
+  {
+   "id": "R1",
+   "kind": "resource",
+   "text": "舅舅在县文化馆管曲艺队（陷阱：和“爱听评书相声”挨得很近，但周老师完全不会表演和组织演出）",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "R2",
+   "kind": "resource",
+   "text": "学校实验室的器材可以登记借用",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "R3",
+   "kind": "resource",
+   "text": "带着一个三十人的物理兴趣小组",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "R4",
+   "kind": "resource",
+   "text": "县科技馆的馆长是高中同学",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "R5",
+   "kind": "resource",
+   "text": "管着一个五百人的家长微信群",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "D1",
+   "kind": "dislike",
+   "text": "不喜欢在镜头前露脸",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "D2",
+   "kind": "dislike",
+   "text": "讨厌填各种表格、报材料",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "D3",
+   "kind": "dislike",
+   "text": "早先说不喜欢用电脑打字写东西；后来说用上语音输入，觉得挺方便",
+   "say": "explicit",
+   "times": 2,
+   "status": "contradicted",
+   "before": "不喜欢用电脑打字写东西",
+   "after": "最近用上了语音输入，写东西方便多了（以前不喜欢用电脑写）"
+  },
+  {
+   "id": "C1",
+   "kind": "constraint",
+   "text": "早上六点到晚上九点都在学校，只有周日有空",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "C2",
+   "kind": "constraint",
+   "text": "每月能自由支配的钱不到五百",
+   "say": "implicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "C3",
+   "kind": "constraint",
+   "text": "有慢性咽炎，医生让少说话",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "C4",
+   "kind": "constraint",
+   "text": "年初说可能调到市里的学校，后来没调成",
+   "say": "explicit",
+   "times": 2,
+   "status": "outdated",
+   "before": "可能要调到市里的学校去",
+   "after": "调动的事黄了，还留在县里"
+  }
+ ],
+ "noise_topics": [
+  "怎么给手机清理内存",
+  "红烧肉怎么做不腻",
+  "电动车电池冬天不耐用怎么办",
+  "一句古诗是什么意思",
+  "怎么看懂体检报告上的血脂",
+  "家里水管漏水怎么临时处理",
+  "高铁票怎么退",
+  "怎么防止被电话诈骗",
+  "冬天怎么腌咸菜",
+  "电视机顶盒连不上网",
+  "个人所得税怎么申报退税",
+  "给亲戚写一段结婚祝福",
+  "感冒发烧什么时候该去医院",
+  "洗衣机怎么清洗滚筒",
+  "怎么去除衣服上的霉味",
+  "一个英文单词怎么读",
+  "医保报销的比例是多少",
+  "冰箱结冰太厚怎么办",
+  "怎么判断鸡蛋新不新鲜",
+  "蒸馒头为什么发不起来",
+  "打印机卡纸怎么办",
+  "解释一下新闻里说的专项债",
+  "手机话费套餐怎么选划算",
+  "怎么礼貌地拒绝别人借钱",
+  "空调制热不热是什么原因",
+  "家里蟑螂怎么除",
+  "怎么看天气预报里的空气质量",
+  "一部老电影的结局是什么意思",
+  "快递丢了怎么找商家赔",
+  "怎么做酸辣土豆丝",
+  "老人血压高饮食注意什么",
+  "微信转账转错了怎么办",
+  "一道小学奥数题怎么讲",
+  "怎么挑选冬天的棉被"
+ ]
+}

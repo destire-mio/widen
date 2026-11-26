@@ -1,0 +1,7 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {"hooks": [{"type": "command", "command": "PYTHONPATH=$HOME/Documents/widen/src python3 -m widen hook", "timeout": 30}]}
+    ]
+  }
+}

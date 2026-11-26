@@ -1,0 +1,341 @@
+{
+ "per_session": [
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [
+   "C1",
+   "L1"
+  ],
+  [],
+  [],
+  [
+   "D1",
+   "S1"
+  ],
+  [],
+  [
+   "R3",
+   "D3"
+  ],
+  [
+   "R5",
+   "R1"
+  ],
+  [],
+  [
+   "S2"
+  ],
+  [],
+  [
+   "C3",
+   "D2"
+  ],
+  [
+   "B4",
+   "R3"
+  ],
+  [],
+  [
+   "L2",
+   "S1"
+  ],
+  [],
+  [],
+  [
+   "C4",
+   "C1"
+  ],
+  [],
+  [
+   "B3",
+   "L5"
+  ],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [
+   "S3",
+   "D1"
+  ],
+  [
+   "L1"
+  ],
+  [
+   "B2",
+   "R2"
+  ],
+  [
+   "L4",
+   "S4"
+  ],
+  [
+   "L1",
+   "S1"
+  ],
+  [],
+  [
+   "L3",
+   "B3"
+  ],
+  [
+   "D1",
+   "R4"
+  ],
+  [
+   "C4",
+   "C1"
+  ],
+  [
+   "R3",
+   "C2"
+  ],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [
+   "C3",
+   "D3"
+  ],
+  [
+   "L2",
+   "R5"
+  ],
+  [],
+  [
+   "C1",
+   "S2"
+  ],
+  [],
+  [
+   "B1",
+   "L1"
+  ],
+  [
+   "L5",
+   "R1"
+  ],
+  [],
+  [
+   "D1",
+   "S1"
+  ],
+  [],
+  [],
+  [
+   "R3"
+  ],
+  [],
+  []
+ ],
+ "per_fact": [
+  {
+   "id": "B1",
+   "kind": "background",
+   "times": 2,
+   "planned": 2,
+   "actual": 1,
+   "leaked": 0
+  },
+  {
+   "id": "B2",
+   "kind": "background",
+   "times": 1,
+   "planned": 1,
+   "actual": 1,
+   "leaked": 0
+  },
+  {
+   "id": "B3",
+   "kind": "background",
+   "times": 2,
+   "planned": 2,
+   "actual": 2,
+   "leaked": 0
+  },
+  {
+   "id": "B4",
+   "kind": "background",
+   "times": 1,
+   "planned": 1,
+   "actual": 1,
+   "leaked": 0
+  },
+  {
+   "id": "L1",
+   "kind": "like",
+   "times": 4,
+   "planned": 4,
+   "actual": 4,
+   "leaked": 0
+  },
+  {
+   "id": "L2",
+   "kind": "like",
+   "times": 2,
+   "planned": 2,
+   "actual": 2,
+   "leaked": 0
+  },
+  {
+   "id": "L3",
+   "kind": "like",
+   "times": 1,
+   "planned": 1,
+   "actual": 1,
+   "leaked": 0
+  },
+  {
+   "id": "L4",
+   "kind": "like",
+   "times": 1,
+   "planned": 1,
+   "actual": 1,
+   "leaked": 0
+  },
+  {
+   "id": "L5",
+   "kind": "like",
+   "times": 2,
+   "planned": 2,
+   "actual": 2,
+   "leaked": 0
+  },
+  {
+   "id": "S1",
+   "kind": "skill",
+   "times": 4,
+   "planned": 4,
+   "actual": 4,
+   "leaked": 0
+  },
+  {
+   "id": "S2",
+   "kind": "skill",
+   "times": 2,
+   "planned": 2,
+   "actual": 2,
+   "leaked": 0
+  },
+  {
+   "id": "S3",
+   "kind": "skill",
+   "times": 1,
+   "planned": 1,
+   "actual": 1,
+   "leaked": 0
+  },
+  {
+   "id": "S4",
+   "kind": "skill",
+   "times": 1,
+   "planned": 1,
+   "actual": 1,
+   "leaked": 0
+  },
+  {
+   "id": "R1",
+   "kind": "resource",
+   "times": 2,
+   "planned": 2,
+   "actual": 2,
+   "leaked": 0
+  },
+  {
+   "id": "R2",
+   "kind": "resource",
+   "times": 1,
+   "planned": 1,
+   "actual": 1,
+   "leaked": 0
+  },
+  {
+   "id": "R3",
+   "kind": "resource",
+   "times": 4,
+   "planned": 4,
+   "actual": 4,
+   "leaked": 0
+  },
+  {
+   "id": "R4",
+   "kind": "resource",
+   "times": 1,
+   "planned": 1,
+   "actual": 1,
+   "leaked": 0
+  },
+  {
+   "id": "R5",
+   "kind": "resource",
+   "times": 2,
+   "planned": 2,
+   "actual": 2,
+   "leaked": 0
+  },
+  {
+   "id": "D1",
+   "kind": "dislike",
+   "times": 4,
+   "planned": 4,
+   "actual": 4,
+   "leaked": 0
+  },
+  {
+   "id": "D2",
+   "kind": "dislike",
+   "times": 1,
+   "planned": 1,
+   "actual": 1,
+   "leaked": 0
+  },
+  {
+   "id": "D3",
+   "kind": "dislike",
+   "times": 2,
+   "planned": 2,
+   "actual": 2,
+   "leaked": 0
+  },
+  {
+   "id": "C1",
+   "kind": "constraint",
+   "times": 4,
+   "planned": 4,
+   "actual": 4,
+   "leaked": 0
+  },
+  {
+   "id": "C2",
+   "kind": "constraint",
+   "times": 1,
+   "planned": 1,
+   "actual": 1,
+   "leaked": 0
+  },
+  {
+   "id": "C3",
+   "kind": "constraint",
+   "times": 2,
+   "planned": 2,
+   "actual": 2,
+   "leaked": 0
+  },
+  {
+   "id": "C4",
+   "kind": "constraint",
+   "times": 2,
+   "planned": 2,
+   "actual": 2,
+   "leaked": 0
+  }
+ ]
+}

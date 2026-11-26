@@ -1,0 +1,258 @@
+{
+ "id": "ma",
+ "name": "老马",
+ "summary": "45 岁，在西安开面馆的老板",
+ "legend": {
+  "kind": "like 只是喜好 / skill 会的技能 / resource 手上的资源 / dislike 讨厌的 / constraint 限制条件 / background 背景（不计分）",
+  "say": "explicit 明说 / implicit 暗示",
+  "times": "在 50 段聊天里出现几次",
+  "status": "current 当前 / outdated 过时 / contradicted 前后矛盾",
+  "before/after": "过时或矛盾的信息：较早的聊天只透露 before，最后一次只透露 after；只出现 1 次的两句都透露"
+ },
+ "facts": [
+  {
+   "id": "B1",
+   "kind": "background",
+   "text": "45 岁，在西安开面馆",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "B2",
+   "kind": "background",
+   "text": "老家在甘肃天水",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "B3",
+   "kind": "background",
+   "text": "女儿在外地读大学",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "B4",
+   "kind": "background",
+   "text": "老婆和他一起看店",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L1",
+   "kind": "like",
+   "text": "爱听秦腔",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "L2",
+   "kind": "like",
+   "text": "喜欢下象棋",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "L3",
+   "kind": "like",
+   "text": "爱看抗战剧",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L4",
+   "kind": "like",
+   "text": "喜欢养鸽子",
+   "say": "implicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "L5",
+   "kind": "like",
+   "text": "前几年迷上钓鱼买了一堆竿，后来没时间就不去了",
+   "say": "explicit",
+   "times": 2,
+   "status": "outdated",
+   "before": "最近迷上了钓鱼，买了好几根竿",
+   "after": "钓鱼竿放着落灰，没时间去了"
+  },
+  {
+   "id": "S1",
+   "kind": "skill",
+   "text": "开了十年面馆，会扯面和调臊子",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "S2",
+   "kind": "skill",
+   "text": "会修电动车和小家电",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "S3",
+   "kind": "skill",
+   "text": "年轻时在工地开过两年挖掘机",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "S4",
+   "kind": "skill",
+   "text": "学过一阵抖音直播，没坚持下来",
+   "say": "explicit",
+   "times": 1,
+   "status": "outdated",
+   "before": "在学抖音直播",
+   "after": "直播没坚持下来"
+  },
+  {
+   "id": "R1",
+   "kind": "resource",
+   "text": "表弟在西安一个秦腔剧团拉板胡（陷阱：和“爱听秦腔”挨得很近，但老马完全不懂演出和剧团运营）",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "R2",
+   "kind": "resource",
+   "text": "认识周边几家餐馆的老板",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "R3",
+   "kind": "resource",
+   "text": "店开在大学城旁边，学生客流多",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "R4",
+   "kind": "resource",
+   "text": "店后面有一个闲置的小仓库",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "R5",
+   "kind": "resource",
+   "text": "老家亲戚种花椒，能拿到便宜的好花椒",
+   "say": "implicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "D1",
+   "kind": "dislike",
+   "text": "不喜欢复杂的手机软件，用不惯",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "D2",
+   "kind": "dislike",
+   "text": "讨厌跟人讨价还价",
+   "say": "explicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "D3",
+   "kind": "dislike",
+   "text": "早先说看不上外卖；后来说外卖占了店里三成生意",
+   "say": "explicit",
+   "times": 2,
+   "status": "contradicted",
+   "before": "看不上外卖，觉得面一送就坨",
+   "after": "外卖现在占了店里三成生意（以前看不上外卖）"
+  },
+  {
+   "id": "C1",
+   "kind": "constraint",
+   "text": "店里离不开人，只有周一下午休息",
+   "say": "implicit",
+   "times": 4,
+   "status": "current"
+  },
+  {
+   "id": "C2",
+   "kind": "constraint",
+   "text": "腰椎间盘突出，不能搬重东西",
+   "say": "explicit",
+   "times": 2,
+   "status": "current"
+  },
+  {
+   "id": "C3",
+   "kind": "constraint",
+   "text": "识字不多，看长文字费劲",
+   "say": "implicit",
+   "times": 1,
+   "status": "current"
+  },
+  {
+   "id": "C4",
+   "kind": "constraint",
+   "text": "去年想再开一家分店，后来算了算钱不够就放弃了",
+   "say": "explicit",
+   "times": 2,
+   "status": "outdated",
+   "before": "在琢磨再开一家分店",
+   "after": "算了算钱不够，分店不开了"
+  }
+ ],
+ "noise_topics": [
+  "手机字太小怎么调大",
+  "电费单上的阶梯电价怎么算",
+  "感冒了喝什么好得快",
+  "手机转账怎么不收手续费",
+  "医保卡怎么激活",
+  "高血压吃药要注意什么",
+  "冬天水管冻住了怎么办",
+  "怎么识别假钞",
+  "电视遥控器坏了",
+  "微信语音怎么转文字",
+  "去银行办业务要带什么",
+  "怎么防止被电话诈骗",
+  "老家房子漏雨怎么补",
+  "孩子放假回家坐什么车划算",
+  "解释一下新闻里说的养老金",
+  "给亲戚写一段祝寿的话",
+  "怎么去除衣服上的油渍",
+  "一句歇后语是什么意思",
+  "空调怎么清洗",
+  "家里路由器怎么重启",
+  "牙疼怎么临时止疼",
+  "怎么看懂体检报告",
+  "冰箱不制冷了",
+  "怎么腌腊肉",
+  "快递丢了怎么办",
+  "身份证过期怎么换",
+  "一部老电影讲的是什么",
+  "怎么给手机清内存",
+  "社保断交了有什么影响",
+  "怎么挑西瓜",
+  "失眠睡不着怎么办",
+  "过年给长辈送什么",
+  "家里蟑螂怎么除",
+  "雨天路滑开电动车注意什么"
+ ]
+}
